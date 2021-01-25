@@ -14,3 +14,6 @@ Databse is normalized to 3rd NF.
 # Stored Procedures
 To easily find and remove duplicates from each table, stored procedures were created to simplify the process. 
 These stored procedures take table name, two column names and a "where clause" as an input to remove null records, show and delete the duplicated rows in a table.
+
+# Views
+These views were created to first summarize data in the database, merge multiple normalized tables and protect undrlying tables.
